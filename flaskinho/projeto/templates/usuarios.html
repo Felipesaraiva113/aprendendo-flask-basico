@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usuários</title>
+</head>
+<body>
+    {% if nome_usuario %}
+        <h1>meu nome é {{ nome_usuario }}!</h1>
+        {% if idade >= 18 %}
+            <p>eu sou maior de idade</p>
+        {% else %}
+            <p>eu sou menor de idade</p>
+        {% endif %}
+    {% else %}
+        <h1>usuário inexistente.</h1>
+    {% endif %}
+</body>
+</html> 

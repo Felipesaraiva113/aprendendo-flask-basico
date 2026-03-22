@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block titulo %}
+    contatos
+{% endblock %}
+{% block conteudo %}
+<p>nossos contatos são: e-mail: pythanga@gmail.com e telefone: (43) 999999999</p>
+<ul>
+    {% for contato in contatos %}
+        <li>{{contato}}</li>
+    {% else %}
+        <p>contatos indisponíveis</p>
+    {% endfor %}
+</ul>
+{% endblock %}
+  
