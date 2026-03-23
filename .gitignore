@@ -1,16 +1,7 @@
-# Ignorar pastas de cache do Python
 __pycache__/
 *.py[cod]
-
-# Ignorar ambientes virtuais
+*.pyc
+.venv/
 venv/
-env/
-.env
-
-# Ignorar arquivos do Windows
-Thumbs.db
-desktop.ini
-
-# Ignorar pastas de configuração de editores
 .vscode/
-.idea/
+Thumbs.db
