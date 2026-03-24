@@ -1,0 +1,1 @@
+Projetos de Backend com Flask: Implementação de rotas, manipulação de templates e integração de dados com Python. Diferencial: Foco em lógica de servidor e tratamento de requisições HTTP para sistemas web.
